@@ -21,9 +21,7 @@ class Disc
   end
 
   def disc_info
-    p @size
-    p @color
-    p @price
+    p "The disc is #{:size} and the color #{:color} and costs #{:price}"
   end  
 
 end
@@ -32,5 +30,5 @@ disc1 = Disc.new(size: "185g", color: "white", price: 15)
 disc2 = Disc.new(size: "190g", color: "black", price: 20)
 
 
-p disc1.disc_info
-p disc2.disc_info
+disc1.disc_info
+disc2.disc_info
